@@ -1,1 +1,30 @@
+.App {
+  min-width: 393px;
+  max-width: 393px;
+  min-height: 852px;
+  max-height: 852px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
 
+  /* background */
+  background-image: url(/Users/jakeburdass/Developer/personal-project/bassment-media-player/bassment-media-player/src/assets/backgroundImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundImage {
+  object-fit: cover;
+  width: 393px;
+  height: 852px;
+}
+
+h2{
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}

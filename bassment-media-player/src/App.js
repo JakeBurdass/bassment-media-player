@@ -1,15 +1,19 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import Dashboard from './pages/dashboard/dashboard';
+import Header from './components/header/header';
+import Library from './pages/library/library';
 
 function App() {
   return (
     <>
-      <header></header>
       <div className="App">
-        <h2>HELLO</h2>
+          <Header />
+          {/* <Dashboard /> */}
+          <Library />
       </div>
       <Routes>
-
+        {/* <Route path="library" element={<Library />} /> */}
       </Routes>
     </>
   );

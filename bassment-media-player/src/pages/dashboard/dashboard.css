@@ -1,0 +1,77 @@
+.dashboardMain{
+    display: grid;
+    grid-template-columns: 1, 100%;
+    grid-template-rows: 2, 396px;
+    min-width: 393px;
+    max-width: 393px;
+    min-height: 852px;
+    max-height: 852px;
+    overflow: hidden;
+    background-color: #00000091;
+    margin: 0;
+}
+
+h2{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+.buttonWrapper {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    align-items: center;
+    justify-items: center;
+
+}
+
+
+.buttonWrapper > * {
+    scroll-snap-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li button {
+    float: left;
+    width: 250px;
+    height: 250px;
+    color: red;
+    padding: 10px;
+    border-radius: 50%;
+    border: 30px black;
+    background-color: white;
+    align-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+li button:hover {
+    background-color: red;
+}
+
+li button img {
+    width: 100px;
+    height: 100px;
+    color: red;
+}
