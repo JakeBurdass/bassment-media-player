@@ -24,12 +24,29 @@ p {
 
 .videoContainer{
     display: grid;
-    background-color: black
+    height: 580px;
+    grid-auto-flow: row;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.641);
+    overflow: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    
 }
+
+.videoContainer::-webkit-scrollbar {
+    display: none;
+  }
 
 iframe {
     width: 300px;
     height: 200px;
+    overflow: hidden;
+    border: solid white 5px;
 }
 
 

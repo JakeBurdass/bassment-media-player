@@ -5,15 +5,17 @@ import Header from './components/header/header';
 import Library from './pages/library/library';
 
 function App() {
+  
   return (
     <>
       <div className="App">
-          <Header />
-          {/* <Dashboard /> */}
-          <Library />
+        <Header />
+        ç
+        {/* <Library /> */}
       </div>
       <Routes>
-        {/* <Route path="library" element={<Library />} /> */}
+        {/* <Route path="/" element={<Dashboard/>} /> */}
+        {/* <Route path="library" element={<Library />}/> */}
       </Routes>
     </>
   );

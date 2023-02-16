@@ -42,6 +42,10 @@ section {
 
 }
 
+.buttonWrapper::-webkit-scrollbar {
+    display: none;
+  }
+
 
 .buttonWrapper > * {
     scroll-snap-align: center;
