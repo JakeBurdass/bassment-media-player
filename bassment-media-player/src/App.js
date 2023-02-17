@@ -7,17 +7,16 @@ import Library from './pages/library/library';
 function App() {
   
   return (
-    <>
+    <div>
       <div className="App">
         <Header />
-        ç
-        {/* <Library /> */}
-      </div>
-      <Routes>
-        {/* <Route path="/" element={<Dashboard/>} /> */}
-        {/* <Route path="library" element={<Library />}/> */}
+
+        <Routes>
+        <Route path="/" element={<Dashboard/>} />
+        <Route path="/library" element={<Library />}/>
       </Routes>
-    </>
+      </div>
+    </div>
   );
 }
 
